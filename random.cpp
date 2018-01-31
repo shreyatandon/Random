@@ -4,7 +4,12 @@ using namespace std;
 int main()
 {
 	int random = rand();
-	cout << random << endl;
+	double maxint = RAND_MAX;
+	double dd = rand() / RAND_MAX;
+	//cout << random << endl;
+	cout << dd << endl;
+
 	getchar();
-	return 0;
+
+    return 0;
 }
